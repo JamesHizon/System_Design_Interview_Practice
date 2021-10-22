@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T00:05:42.278Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.6" etag="F7JoeIjQjuWDqib8Yq8v" type="github"><diagram id="wxcZ70i77-cbPW4jj68i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-22T22:52:38.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="z1wYXo6in5El2q401F5T" version="15.5.6" type="github">
+  <diagram id="wxcZ70i77-cbPW4jj68i" name="Page-1">
+    <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-1" value="&lt;h1&gt;&lt;span&gt;System Design Interview Practice&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;Task:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- Design an end-to-end data solution that will ingest, process, transform and store petabytes of data collected from autonomous driving vehicles.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;- In addition, list out processing frameworks, storage solutions, ways to make distributed system reliable and scalable, and optimized for performance. Discuss any potential tradeoffs between solutions.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-3" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.033;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qkhyXUJzC9_R9NJtEFik-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="259" as="sourcePoint" />
+            <mxPoint x="640" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-6" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-8" value="Frontend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-9" value="Backend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-10" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="675" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-14" value="AWS CloudFront" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-17" value="AWS Cognito" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="qkhyXUJzC9_R9NJtEFik-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=1.033;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-3" target="qkhyXUJzC9_R9NJtEFik-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="360" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-23" value="S3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-3" target="qkhyXUJzC9_R9NJtEFik-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="375" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-25" value="AWS Lambda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-26" value="AWS EMR on EC2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-23" target="qkhyXUJzC9_R9NJtEFik-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="375" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-25" target="qkhyXUJzC9_R9NJtEFik-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="450" as="sourcePoint" />
+            <mxPoint x="290" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-32" value="AWS Redshift" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.317;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.667;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-26" target="qkhyXUJzC9_R9NJtEFik-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="450" as="sourcePoint" />
+            <mxPoint x="438" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-34" value="&lt;h1&gt;Summary of Architecture&lt;/h1&gt;&lt;p&gt;Here, a client uses the self-driving car. While driving, they interact with an API hosted on cloud (AWS via API Gateway). Frontend services include AWS Cognito to deal with managing and securing app data, S3 to host key data related to self-driving trucks such as current location, surrounding vehicles&#39; location and movement, current destination and route, etc. AWS CloudFront would be used as a content delivery network used to handle increasing amounts of traffic (API calls).&lt;/p&gt;&lt;p&gt;Backend services include AWS Lambda and AWS EMR on EC2 as an example. We can use AWS Lambda as a Function as a Service to automatically trigger processing of data as necessary using EMR on EC2.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Then, we can work with storing all transformed data necessary to respond to surroundings back to the client (self-driving truck) inside Redshift as an effective data warehouse solution to store petabytes of data.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="760" width="440" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-35" value="&lt;h1&gt;AWS API Gateway&lt;/h1&gt;&lt;p&gt;- Fully managed service used to create, publish, maintain, monitor and secure APIs at any scale.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="760" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qkhyXUJzC9_R9NJtEFik-3" target="qkhyXUJzC9_R9NJtEFik-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="580" as="sourcePoint" />
+            <mxPoint x="520" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qkhyXUJzC9_R9NJtEFik-37" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
